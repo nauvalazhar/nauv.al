@@ -1,4 +1,5 @@
-module.exports = {
+const withImages = require('next-images')
+module.exports = withImages({
   exportTrailingSlash: true,
   exportPathMap: function() {
     return {
@@ -8,4 +9,4 @@ module.exports = {
       '/contact': { page: '/contact' },
     };
   }
-};
+});

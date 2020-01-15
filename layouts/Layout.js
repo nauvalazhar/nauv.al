@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import imgAvatar from '../public/images/avatar.jpeg';
+import imgBG from '../public/images/bg.jpeg';
 
 const Layout = (props) => (
 	<>
 		<Head>
-			<link rel="shortcut icon" href="https://avatars1.githubusercontent.com/u/14899175?s=460&v=4" />
+			<link rel="shortcut icon" href={imgAvatar} />
 		</Head>
 		<table width="800" border="1" cellpadding="20">
 			<thead>
@@ -29,7 +31,7 @@ const Layout = (props) => (
 						{props.children}
 					</td>
 					<td width="250" valign="top">
-						<img src="images/avatar.jpeg" width="100" />
+						<img src={imgAvatar} width="100" />
 						<p>Koala on Windows 7 is my favorite photo in the universe.</p>
 						<Link href="/profile"><a>See my profile</a></Link>
 						<br />
@@ -58,7 +60,7 @@ const Layout = (props) => (
 		</table>
 		<style jsx global>{`
 			body {
-				background-image: url(images/bg.jpeg);
+				background-image: url(${imgBG});
 			}
 			table {
 				background-color: #EBDAD3;

@@ -1,18 +1,29 @@
 import Layout from '../layouts/Layout';
 import Head from 'next/head';
 import Link from 'next/link';
+import imgForgif from '../public/images/forgif.png';
+import imgKodinger from '../public/images/kodinger.png';
+import imgLetschckout from '../public/images/letschckout.png';
+import imgLowin from '../public/images/lowin.png';
+import imgMagz from '../public/images/magz.png';
+import imgMultinity from '../public/images/multinity.png';
+import imgNgfl from '../public/images/ngfl.png';
+import imgPenzil from '../public/images/penzil.png';
+import imgQopi from '../public/images/qopi.png';
+import imgSadnile from '../public/images/sadnile.png';
+import imgStisla from '../public/images/stisla.png';
 
 const projects_data = [
 	{
 		id: 1,
-		image: 'images/forgif.png',
+		image: imgForgif,
 		title: 'Forgif',
 		tech: 'Laravel',
 		summary: 'The 4th social media that I made. Here you can upload GIFs or videos that will be converted to GIFs and shared with people around the world. Unfortunately, this project is dead.'
 	},
 	{
 		id: 2,
-		image: 'images/kodinger.png',
+		image: imgKodinger,
 		title: 'Kodinger',
 		tech: 'Laravel, React, Passport, Tailwind, DO Spaces, Babel, Webpack Mix',
 		summary: 'Kodinger is a content publication that I own. I created a lot of content in this publication, and the Kodinger website is being redesigned so that it can become a developer community website in Indonesia. This project is also open-source, and beginning in 2020 I plan to release a beta soon.',
@@ -20,7 +31,7 @@ const projects_data = [
 	},
 	{
 		id: 3,
-		image: 'images/letschckout.png',
+		image: imgLetschckout,
 		title: 'Let\'s Checkout',
 		tech: 'HTML, SCSS, JavaScript',
 		summary: 'This is a template for creating checkout pages, which can help developers to create checkout pages quickly.',
@@ -28,7 +39,7 @@ const projects_data = [
 	},
 	{
 		id: 4,
-		image: 'images/lowin.png',
+		image: imgLowin,
 		title: 'Lowin',
 		tech: 'CSS, CSS Animation, JavaScript, HTML',
 		summary: 'This is an open-source CSS3 login template that I created. You can download it for free.',
@@ -36,7 +47,7 @@ const projects_data = [
 	},
 	{
 		id: 5,
-		image: 'images/magz.png',
+		image: imgMagz,
 		title: 'Magz',
 		tech: 'Bootstrap 3, SCSS',
 		summary: 'This is a Bootstrap 3 based news site template. This project is open-source, in which there are many pre-designed pages. You can also download this for free.',
@@ -44,7 +55,7 @@ const projects_data = [
 	},
 	{
 		id: 6,
-		image: 'images/multinity.png',
+		image: imgMultinity,
 		title: 'Multinity',
 		tech: 'Laravel',
 		summary: 'Multinity is the second software house startup that I built with my brother. I work on many projects here, to have several co-workers, however, in the end it must "end", because we already have a way of life that - we think - is better.',
@@ -52,7 +63,7 @@ const projects_data = [
 	},
 	{
 		id: 7,
-		image: 'images/ngfl.png',
+		image: imgNgfl,
 		title: 'NGFL',
 		tech: 'Bootstrap 4',
 		summary: 'This is a minimal website design template that I created. Based on Bootstrap 4 and I made it using Bootstrap Studio. This is also an open-source project.',
@@ -60,7 +71,7 @@ const projects_data = [
 	},
 	{
 		id: 8,
-		image: 'images/penzil.png',
+		image: imgPenzil,
 		title: 'Penzil',
 		tech: 'PHP Native',
 		summary: 'Penzil is my first software house startup that was built with my brother. There aren\'t too many projects that I\'m working on here. Even though it is no longer operational, we let the website live, as a memory.',
@@ -68,7 +79,7 @@ const projects_data = [
 	},
 	{
 		id: 9,
-		image: 'images/qopi.png',
+		image: imgQopi,
 		title: 'Qopi',
 		tech: 'Laravel',
 		summary: 'Qopi is a tool that can be used to generate WhatsApp Click to Chat links. This tool is easy to use for ordinary people or anyone, including you.',
@@ -76,7 +87,7 @@ const projects_data = [
 	},
 	{
 		id: 10,
-		image: 'images/sadnile.png',
+		image: imgSadnile,
 		title: 'Sadnile',
 		tech: 'Bootstrap 3',
 		summary: 'My first e-commerce template. This template was rejected by Envato for no apparent reason. So, I decided to make it open source.',
@@ -84,7 +95,7 @@ const projects_data = [
 	},
 	{
 		id: 11,
-		image: 'images/stisla.png',
+		image: imgStisla,
 		title: 'Stisla',
 		tech: 'Bootstrap 4, SCSS, Gulp',
 		summary: 'This is my most favorite open source project. Also, my most downloaded and starred open source project. I have a plan to make it even better.',
