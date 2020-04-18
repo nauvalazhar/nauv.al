@@ -6,6 +6,7 @@ import imgBG from '../public/images/bg.jpeg';
 const Layout = (props) => (
 	<>
 		<Head>
+			<meta name="google-site-verification" content="IoqwXa0jgdLrvXiqTt2gVyPCpMd80szFRn1cLEp8Ul4" />
 			<link rel="shortcut icon" href={imgAvatar} />
 		</Head>
 		<table width="800" border="1" cellpadding="20">
