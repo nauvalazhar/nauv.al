@@ -7,7 +7,7 @@ export default () => {
 			<p>Time: Apr 25, 2020 10:00 AM Jakarta</p>
 
 			<p>Join Zoom Meeting</p>
-			<p>https://zoom.us/j/94089527252</p>
+			<p><a href="https://zoom.us/j/94089527252">https://zoom.us/j/94089527252</a></p>
 
 			<p>Meeting ID: 940 8952 7252</p>
 		</div>
