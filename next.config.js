@@ -7,6 +7,7 @@ module.exports = withImages({
       '/profile': { page: '/profile' },
       '/projects': { page: '/projects' },
       '/contact': { page: '/contact' },
+      '/config': { page: '/config' },
     };
   }
 });
