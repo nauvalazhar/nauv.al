@@ -1,15 +1,19 @@
 export default () => {
 	return (
 		<div>
-			<p>Muhamad Nauval Azhar is inviting you to a scheduled Zoom meeting.</p>
+			<h1>Config Pertemuan 3</h1>
 
-			<p>Topic: Figma Prototyping</p>
-			<p>Time: Apr 25, 2020 10:00 AM Jakarta</p>
+			<p>Topic: Figma Consistency</p>
+			<p>Time: Mei 2, 2020 10:00 AM (WIB)</p>
 
-			<p>Join Zoom Meeting</p>
-			<p><a href="https://zoom.us/j/94089527252">https://zoom.us/j/94089527252</a></p>
-
-			<p>Meeting ID: 940 8952 7252</p>
+			<p>Link:</p>
+			<p><i>Belum ada link, kembali lagi pukul 10:00 AM (WIB).</i></p>
+			<hr/>
+			<h4>Pertemuan Sebelumnya</h4>
+			<ul>
+				<li><a href="https://www.youtube.com/watch?v=00iGPW3z4VI&t=3s" target="_blank">Konferensi Figma Fundamental: Pertemuan 1</a></li>
+				<li><a href="https://www.youtube.com/watch?v=EE4h0dEDlG8&t" target="_blank">Konferensi Figma Prototyping: Pertemuan 2</a></li>
+			</ul>
 		</div>
 	);
 }
