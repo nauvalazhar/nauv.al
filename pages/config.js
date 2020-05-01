@@ -6,8 +6,7 @@ export default () => {
 			<p>Topic: Figma Consistency</p>
 			<p>Time: Mei 2, 2020 10:00 AM (WIB)</p>
 
-			<p>Link:</p>
-			<p><i>Belum ada link, kembali lagi pukul 10:00 AM (WIB).</i></p>
+			<p>Link: <b><i>Belum ada link, kembali lagi pukul 10:00 AM (WIB).</i></b></p>
 			<hr/>
 			<h4>Pertemuan Sebelumnya</h4>
 			<ul>
