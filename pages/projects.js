@@ -19,7 +19,8 @@ const projects_data = [
 		image: imgForgif,
 		title: 'Forgif',
 		tech: 'Laravel',
-		summary: 'The 4th social media that I made. Here you can upload GIFs or videos that will be converted to GIFs and shared with people around the world. Unfortunately, this project is dead.'
+		summary: 'The 4th social media that I made. Here you can upload GIFs or videos that will be converted to GIFs and shared with people around the world.',
+		link: 'https://forgif.us'
 	},
 	{
 		id: 2,
