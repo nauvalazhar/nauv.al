@@ -120,7 +120,7 @@ const SocialFeeds = () => (
             <meta property="og:url" content="https://nauv.al/socialfeeds" />
             <meta property="og:title" content="Social Feeds" />
             <meta property="og:description" content="Beautiful Social Media Content Design Templates For Figma" />
-            <meta property="og:image" content="/images/og-image.png" />
+            <meta property="og:image" content="https://nauv.al/images/og-image.png" />
 
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:url" content="https://nauv.al/socialfeeds" />
