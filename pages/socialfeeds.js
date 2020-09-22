@@ -126,7 +126,7 @@ const SocialFeeds = () => (
             <meta property="twitter:url" content="https://nauv.al/socialfeeds" />
             <meta property="twitter:title" content="Social Feeds" />
             <meta property="twitter:description" content="Beautiful Social Media Content Design Templates For Figma" />
-            <meta property="twitter:image" content="/images/og-image.png" />
+            <meta property="twitter:image" content="https://nauv.al/images/og-image.png" />
             
             <link href="/favicon.png" rel="shortcut icon" />
             <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet" /> 
