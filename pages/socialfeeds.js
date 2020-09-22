@@ -112,9 +112,26 @@ const templates = [
 const SocialFeeds = () => (
     <>
         <Head>
+            <meta name="title" content="Social Feeds" />
+            <meta name="description" content="Beautiful Social Media Content Design Templates For Figma" />
+
+            <meta property="og:site_name" content="Nauval" />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://nauv.al/socialfeeds" />
+            <meta property="og:title" content="Social Feeds" />
+            <meta property="og:description" content="Beautiful Social Media Content Design Templates For Figma" />
+            <meta property="og:image" content="/images/og-image.png" />
+
+            <meta property="twitter:card" content="summary_large_image" />
+            <meta property="twitter:url" content="https://nauv.al/socialfeeds" />
+            <meta property="twitter:title" content="Social Feeds" />
+            <meta property="twitter:description" content="Beautiful Social Media Content Design Templates For Figma" />
+            <meta property="twitter:image" content="/images/og-image.png" />
+            
             <link href="/favicon.png" rel="shortcut icon" />
             <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet" /> 
-            <title>Beautiful Social Media Content Design Templates</title>
+            <link rel="canonical" href="https://nauv.al/socialfeeds"/>
+            <title>Social Feeds &mdash; Beautiful Social Media Content Design Templates For Figma</title>
 
             <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="mhd" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a tea!" data-color="#5F7FFF" data-position="" data-x_margin="18" data-y_margin="18"></script>
         </Head>
