@@ -8,6 +8,7 @@ module.exports = withImages({
       '/projects': { page: '/projects' },
       '/contact': { page: '/contact' },
       '/config': { page: '/config' },
+      '/socialfeeds': { page: '/socialfeeds' },
     };
   }
 });
