@@ -332,6 +332,22 @@ const SocialFeeds = () => (
                 padding-bottom: 2px;
                 border-bottom: 1px solid #FF317B;
             }
+            .credit {
+                position: absolute;
+                width: 100%;
+                bottom: -100px;
+                left: -10px;
+                opacity: .8;
+            }
+            .credit a {
+                color: #fff;
+            }
+            @media (max-width: 540px) {
+                .credit {
+                    text-align: center;
+                    left: 0;
+                }
+            }
             `}
         </style>
 
@@ -361,7 +377,7 @@ const SocialFeeds = () => (
         <a name="content"></a>
         { templates.map((template, index) => (
             <section key={index} className="sectioned" style={{ backgroundImage: `url(${template.patterns})` }}>
-                <div className="container">
+                <div className="container" style={{position: 'relative'}}>
                     <div className="flex">
                         <div className="text">
                             <h2>{ template.name }</h2>
@@ -380,6 +396,12 @@ const SocialFeeds = () => (
                             <img src={template.preview} />
                         </div>
                     </div>
+
+                    { index == templates.length - 1 &&
+                        <div className="credit">
+                            Patterns by <a href="https://www.heropatterns.com">heropatterns.com</a>
+                        </div>
+                    }
                 </div>
             </section>
         )) }
