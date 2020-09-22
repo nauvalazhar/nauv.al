@@ -112,6 +112,7 @@ const templates = [
 const SocialFeeds = () => (
     <>
         <Head>
+            <link href="/favicon.png" rel="shortcut icon" />
             <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet" /> 
             <title>Beautiful Social Media Content Design Templates</title>
         </Head>
