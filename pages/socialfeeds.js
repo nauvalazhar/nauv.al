@@ -105,7 +105,7 @@ const templates = [
         link: 'https://www.figma.com/file/UaNmyUFBkvYdGhyngTu1pq/Social-Feeds/duplicate',
         preview: '/images/previews/11.png',
         patterns: '/images/patterns/11.png',
-        text: 'Duplicate 👉'
+        text: 'Download 👉'
     }
 ]
 
