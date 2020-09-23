@@ -387,6 +387,8 @@ const SocialFeeds = () => (
                         <a href="#content" className="btn">Discover 👇</a>
                         <div className="pb">a project by <a href="https://nauv.al" target="_blank">Nauval</a></div>
                     </div>
+
+                    <a href="https://www.producthunt.com/posts/social-feeds?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-social-feeds" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=266852&theme=dark" alt="Social Feeds - Free Social Media Content Design Template For Figma | Product Hunt Embed" style={{width: '250px', height: '54px', marginTop: 60}} width={250} height={54} /></a>
                 </div>
             </div>
         </div>
